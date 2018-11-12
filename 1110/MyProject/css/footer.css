@@ -1,0 +1,51 @@
+/*footer背景*/
+footer{
+    background-color: #9a7749;
+}
+/*底层标题与logo的左外边距*/
+.fo_ml{
+    margin-left: 6rem;
+}
+/*底层标题div宽和高*/
+.fo_title{
+    width:9rem;
+    height:1.8rem;
+    background-color: #a98251;
+    text-align: right;
+    line-height: 1.8rem;
+}
+/*下划线*/
+.fo_bor_b{
+    border-bottom: 1px solid #b39977;
+    text-align: right;
+}
+/*友情链接*/
+.fo_link{
+    width:7rem;
+    height: 1.8rem;
+    background-color: #a98251;
+    text-align: center;
+    line-height: 1.8rem;
+}
+/*友情链接 上外边距*/
+.fo_link_mt{
+    margin-top: 0.4rem;
+}
+/*黑色背景*/
+.fo_black_bg{
+    background-color: #262524;
+}
+/*黑色背景下的 白色边*/
+.fo_black_white{
+    border-top:2px solid #fff;
+}
+/*白色边占的高度*/
+.fo_white_h{
+    height:3.5rem;
+    line-height: 2.5rem;
+}
+/*最后一栏高度*/
+.fo_last_h{
+    height:4rem;
+    line-height: 4rem;
+}

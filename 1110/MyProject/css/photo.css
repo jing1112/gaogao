@@ -1,0 +1,306 @@
+
+/*轮播图*/
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+#flash ul.ind{
+    position:absolute;
+    /*圆点从下往上偏*/
+    bottom:30px;
+    left:900px;
+}
+#flash  ul.ind li{
+    width:11px;
+    height:11px;
+    border-radius:50%;
+    border:1px solid #fff;
+    margin-right:5px;
+    float:left;
+}
+#flash  ul.ind li.active{
+    background:#fff;
+}
+#flash  ul.ind li:hover{
+    background:#fff;
+}
+/*左右箭头*/
+a.carousel-control-prev,a.carousel-control-next{
+    position: absolute;
+    top:4rem;
+}
+/*搜索框圆角*/
+.my_radius{
+    border-radius: 1.5rem !important;
+    background: #e5e5e5;
+}
+/*搜索框宽度*/
+.my_input_height{
+    height:2.4rem;
+    width: 75rem;
+}
+/*搜索框 左右内边距*/
+div.search_mt input{
+    margin-left: 18rem;
+}
+/*搜索框 上外边距*/
+.search_mt{
+    margin-top: 2rem;
+}
+.search_radius{
+    width:11.5rem;
+    height: 2.4rem;
+    border-bottom-left-radius: 1.2rem;
+    border-top-left-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+    border-top-right-radius: 1.2rem;
+    background: #ff4400;
+    line-height: 2.4rem;
+    text-align: center;
+}
+/*搜索字体 大小*/
+.search_font{
+    font-size: 19px;
+}
+/*搜索按钮 移动*/
+.search_btn_ml{
+    margin-left: -4rem;
+    z-index: 15;
+}
+/*第四栏字体颜色*/
+.four_font{
+    color:#ff4400;
+    font-weight: bold;
+}
+/*第四栏字体大小*/
+.four_font_size{
+    font-size: 30px;
+}
+/*第四栏 ml*/
+.four_ml{
+    margin-left: 18rem;
+    margin-top: 3rem;
+}
+/*第四栏 下划线*/
+.four_bor_bot{
+    border-bottom: 1px solid #bbbbbb;
+}
+/*第四栏宽度*/
+.five_div_w{
+    width:22rem;
+}
+/*第五栏 按钮颜色*/
+.five_div{
+    width:8.6rem;
+    height:3.2rem;
+    background: #2d2d2d;
+    line-height:3.2rem; ;
+}
+/*第五栏 圆角*/
+.five_div_rad{
+    border-bottom-right-radius: 6%;
+    border-bottom-left-radius: 6%;
+    border-top-left-radius: 6%;
+    border-top-right-radius: 6%;
+}
+/*第五栏 ml*/
+.five_ml{
+    margin-left: 18rem;
+    margin-top: 2rem;
+}
+/*第五栏 li 的mt*/
+.five_li_mt{
+    margin-top: 1px;
+}
+/*第五栏 li 左外边距*/
+.five_li_ml{
+    margin-left: 1.5rem;
+}
+/*第五栏 li 上外边距*/
+.five_li_pt{
+    padding-top: 0.8rem;
+}
+/*第五栏 li 外边div宽度*/
+.five_div_li_w{
+    width: 73.8rem;
+    border-bottom: 1px dashed #ddd;
+}
+/*第五栏 li 字体颜色*/
+div.five_div_li_w li a{
+    text-decoration: none;
+    color: #666666;
+}
+/*第五栏 li a 触发*/
+div.five_div_li_w li a:hover{
+    color: #ff4400;
+}
+/*第六栏 图片 mt*/
+.six_div_mt{
+    margin-top: 4rem;
+}
+/*第七栏 div  左外边距*/
+.seven_div_m{
+    margin-left: 12rem;
+    margin-top: 4rem;
+}
+/*第七栏 摄像机 内上边距*/
+.seven_ph_pt{
+    padding-top: 3rem;
+}
+/*第七栏 右侧 图片div宽度*/
+.seven_pic_w{
+    width:1102px; 
+}
+/*第七栏 摄像图标下方的字体*/
+.seven_cam_font1{
+    color:#c6c6c6;
+    font-size: 32px;
+    font-weight: lighter;
+    margin-top: 1rem;
+    margin-left: -1rem;
+}
+.seven_cam_font2{
+    color:#c6c6c6;
+    font-size: 32px;
+    font-weight: lighter;
+    margin-top: 1rem;
+    margin-left: 10rem;
+}
+.seven_span{
+    color:#727272;
+}
+/*每栏标题横线下方的英文*/
+.line_font{
+    font-weight:bold;
+    text-align:center;
+    margin-top: 15px;
+}
+/*第八栏 标题 mt pt pb*/
+.eight_tit_mp{
+    margin-top: 8rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #ddd;
+}
+/*第八栏 图片 左外边距*/
+.e_pic_ml{
+    margin-left: 13rem;
+}
+/*第八栏 图片 上外边距*/
+.e_pic_mt{
+    margin-top: 3rem;
+}
+/*第八栏图图片下方的文字 li*/
+.e_pic_ml ul li a{
+    color: #434342;
+    text-decoration: none;
+}
+.e_pic_ml ul li a p{
+    margin: 0;
+    padding: 0;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+/*下划线*/
+.e_li_line{
+    width: 17rem;
+    border-top:1px solid #ff4400 ;
+    margin-bottom: 1rem;
+}
+/*点击查看更多*/
+.more{
+    width:14rem;
+    height:2.7rem;
+    border: 1px solid #000;
+    text-align: center;
+    margin-left: 52.4rem;
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+}
+.more>a{
+    text-decoration: none;
+    color:#434342 ;
+    line-height: 2.7rem;
+    font-size: 17px;
+}
+/*九 十  标题下划线*/
+.title_line{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #ddd;
+}
+/*十一栏 查看更多*/
+.last_mor{
+    margin-bottom: 2rem !important;
+}
+/*十二栏  最新客片*/
+#new_bg{
+    background: #333333;
+    margin-top: 4rem;
+}
+/*最近客片下方的线条*/
+.new_line{
+    padding-top: 4rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #646464;
+}
+/*四列竖图 li 的右内边距*/
+#new_bg .e_pic_ml ul li{
+    padding-right: 0.5rem;
+}
+/*四列竖图下方的文字*/
+#new_bg .e_pic_ml ul li a p{
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    text-align: center;
+}
+/*第二行 四列竖图 mt*/
+.two_ver_mt{
+    margin-top: 0.5rem;
+}
+/*下载图标 文字设置*/
+#down1{
+    padding-top:5rem ;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+#down1>img{
+    padding-bottom: 0.5rem;
+}
+#down1>p{
+    padding: 0;
+    margin: 0;
+    color:#d6d6d6;
+    text-align: center;
+}
+/*高端定制*/
+#bt_pic{
+    margin-top: 5rem;
+    text-align: center;
+}
+.two_img{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+/*图片 触发*/
+.h_mouse{
+    overflow: hidden;
+}
+.h_mouse>img{
+    transition:all 3s linear ;
+}
+
+.h_mouse>img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
