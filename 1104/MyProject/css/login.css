@@ -1,0 +1,34 @@
+/*圆点*/
+.radius{
+    width:16px;
+    height:16px;
+    border-radius:50%;
+    background: #ff4400;
+}
+/*普通登录*/
+.com_span{
+    margin-left: 10px;
+    margin-top: -5px
+}
+/*验证码前的圆点*/
+.sec_rad{
+    margin-left: 30px;
+}
+/*登录按钮 上外边距*/
+.login_mt{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+/*尚未注册 分割线*/
+.login_last>a>b{
+    color:#2c2c2c;
+    margin: 0 5px 0 5px;
+}
+.login_last a{
+    text-decoration: none;
+    color:#2c2c2c;
+}
+.login_last{
+    text-align: center;
+    padding-bottom: 65px;
+}

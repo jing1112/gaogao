@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/photo.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.11.3.js"></script>
+    <title>上海巴黎婚纱 全球旅拍</title>
+</head>
+<body>
+  <!--logo-->
+  <div class="d-flex">
+    <div>
+        <img src="img/photo/logo.png" class="po_margin" alt="logo"/>
+    </div>
+    <div class="po_font_margin mt-4">
+        <ul class="list-unstyled d-flex">
+            <li><a href="#" class="text-dark">登录</a></li>
+            <li class="ml-4"><a href="#" class="text-dark">注册</a></li>
+        </ul>
+    </div>
+  </div>
+  <!--导航栏-->
+  <div class="mt-3">
+    <div class="container">
+        <ul class="nav po_nav_font po_nav_margin">
+            <li class="nav-item">
+                <a href="#" class="nav-link" style="color: #ff4400;">首页</a>
+            </li>
+            <li class="nav-item nav_font_pl">
+                <a href="#" class="nav-link">必选套系</a>
+            </li>
+            <li class="nav-item nav_font_pl">
+                <a href="#" class="nav-link">本地摄影</a>
+            </li>
+            <li class="nav-item nav_font_pl">
+                <a href="#" class="nav-link">全国摄影</a>
+            </li>
+            <li class="nav-item nav_font_pl">
+                <a href="#" class="nav-link">全球摄影</a>
+            </li>
+            <li class="nav-item nav_font_pl">
+                <a href="#" class="nav-link">蜜月婚礼</a>
+            </li>
+            <li class="nav-item nav_font_pl">
+                <a href="#" class="nav-link ">最新客片</a>
+            </li>
+        </ul>
+    </div>
+  </div>
+  <!--轮播图-->
+  <div id="flash" class="carousel mt-3" data-ride="carousel">
+    <!--指示器-->
+    <ul class="carousel-indicators">
+        <li data-slide-to="0" data-target="#flash" class="active"></li>
+        <li data-slide-to="1" data-target="#flash"></li>
+        <li data-slide-to="2" data-target="#flash"></li>
+    </ul>
+    <!--图片-->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <a href="#">
+                <img src="img/photo/banner1.jpg" class="w-100"/>
+            </a>
+        </div>
+        <div class="carousel-item">
+            <a href="#">
+                <img src="img/photo/banner2.jpg" class="w-100"/>
+            </a>
+        </div>
+        <div class="carousel-item">
+            <a href="#">
+                <img src="img/photo/banner3.jpg" class="w-100"/>
+            </a>
+        </div>
+    </div>
+    <!--左右箭头-->
+    <a href="#flash" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a href="#flash" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+  <!--第三栏 搜索条-->
+  <div class="search_mt d-flex">
+    <input type="text" class="form-control my_radius my_small my_input_height" placeholder="搜索您想要的目的地/行程..."/>
+    <a href="#">
+        <div class="search_radius search_btn_ml">
+            <span class="text-white search_font">搜索</span>
+        </div>
+    </a>
+  </div>
+  <!--第四栏-->
+  <div class="four_ml five_div_w">
+    <ul class="list-unstyled d-flex four_bor_bot">
+        <li class="four_font four_font_size pb-3 pt-3">全球100+</li>
+        <li class="four_font_size pb-3 pt-3">目的地</li>
+    </ul>
+  </div>
+  <!--第五栏-->
+  <div class="five_ml">
+    <ul class="list-unstyled d-flex">
+        <li>
+            <div class="five_div text-white text-center five_div_rad">
+                <span>热门/</span>
+                <span class="small">HOT</span>
+            </div>
+        </li>
+        <div class="d-flex five_div_li_w">
+            <li class="five_li_ml five_li_pt"><a href="#">巴厘岛</a></li>
+            <li class="five_li_pt pl-4"><a href="#">巴黎</a></li>
+            <li class="five_li_pt pl-4"><a href="#">普吉岛</a></li>
+            <li class="five_li_pt pl-4"><a href="#">苏梅岛</a></li>
+            <li class="five_li_pt pl-4"><a href="#">布拉格</a></li>
+            <li class="five_li_pt pl-4"><a href="#">圣托里尼</a></li>
+            <li class="five_li_pt pl-4"><a href="#">马尔代夫</a></li>
+            <li class="five_li_pt pl-4"><a href="#">塞班岛</a></li>
+            <li class="five_li_pt pl-4"><a href="#">厦门</a></li>
+            <li class="five_li_pt pl-4"><a href="#">青岛</a></li>
+            <li class="five_li_pt pl-4"><a href="#">大连</a></li>
+            <li class="five_li_pt pl-4"><a href="#">深圳</a></li>
+            <li class="five_li_pt pl-4"><a href="#">三亚</a></li>
+            <li class="five_li_pt pl-4"><a href="#">兰卡威</a></li>
+            <li class="five_li_pt pl-4"><a href="#">大理</a></li>
+            <li class="five_li_pt pl-4"><a href="#">济州岛</a></li>
+            <li class="five_li_pt"><a href="#">伦敦</a></li>
+        </div>
+    </ul>
+    <ul class="list-unstyled d-flex">
+        <li class="five_li_mt">
+            <div class="five_div text-white text-center five_div_rad">
+                <span>亚洲/</span>
+                <span class="small">ASIA</span>
+            </div>
+        </li>
+        <div class="d-flex five_div_li_w">
+            <li class="five_li_ml five_li_pt"><a href="#">马尔代夫</a></li>
+            <li class="five_li_pt pl-4"><a href="#">土耳其</a></li>
+            <li class="five_li_pt pl-4"><a href="#">巴厘岛</a></li>
+            <li class="five_li_pt pl-4"><a href="#">京都</a></li>
+            <li class="five_li_pt pl-4"><a href="#">奈良</a></li>
+            <li class="five_li_pt pl-4"><a href="#">东京</a></li>
+            <li class="five_li_pt pl-4"><a href="#">济州岛</a></li>
+            <li class="five_li_pt pl-4"><a href="#">普吉岛</a></li>
+            <li class="five_li_pt pl-4"><a href="#">槟城</a></li>
+            <li class="five_li_pt pl-4"><a href="#">苏梅岛</a></li>
+            <li class="five_li_pt pl-4"><a href="#">兰卡威</a></li>
+        </div>
+    </ul>
+    <ul class="list-unstyled d-flex">
+        <li class="five_li_mt">
+            <div class="five_div text-white text-center five_div_rad">
+                <span>欧洲/</span>
+                <span class="small">EUROPEAN</span>
+            </div>
+        </li>
+        <div class="d-flex five_div_li_w">
+            <li class="five_li_ml five_li_pt"><a href="#">意大利</a></li>
+            <li class="five_li_pt pl-4"><a href="#">维也纳</a></li>
+            <li class="five_li_pt pl-4"><a href="#">布鲁塞尔</a></li>
+            <li class="five_li_pt pl-4"><a href="#">巴黎</a></li>
+            <li class="five_li_pt pl-4"><a href="#">布达佩斯</a></li>
+            <li class="five_li_pt pl-4"><a href="#">罗马</a></li>
+            <li class="five_li_pt pl-4"><a href="#">阿姆斯特丹</a></li>
+            <li class="five_li_pt pl-4"><a href="#">巴塞罗那</a></li>
+            <li class="five_li_pt pl-4"><a href="#">伦敦</a></li>
+            <li class="five_li_pt pl-4"><a href="#">威尼斯</a></li>
+            <li class="five_li_pt pl-4"><a href="#">圣托里尼</a></li>
+        </div>
+    </ul>
+    <ul class="list-unstyled d-flex">
+        <li class="five_li_mt">
+            <div class="five_div text-white text-center five_div_rad">
+                <span >大洋洲/</span>
+                <span class="small">OCEANIA</span>
+            </div>
+        </li>
+        <div class="d-flex five_div_li_w">
+            <li class="five_li_ml five_li_pt"><a href="#">奥克兰</a></li>
+            <li class="five_li_pt pl-4"><a href="#">悉尼</a></li>
+            <li class="five_li_pt pl-4"><a href="#">墨尔本</a></li>
+            <li class="five_li_pt pl-4"><a href="#">塞班岛</a></li>
+            <li class="five_li_pt pl-4"><a href="#">皇后镇</a></li>
+        </div>
+    </ul>
+  </div>
+  <!--第六栏-->
+  <div class="six_div_mt">
+    <img src="img/photo/six.png" class="w-100"/>
+  </div>
+  <!--第七栏-->
+  <div class="d-flex">
+    <!--第七栏 左侧-->
+    <div class="seven_div_m">
+        <span style="color:#c6c6c6;font-size: 44px;font-weight: lighter">+</span>
+        <span style="color:#ff4400;font-size: 44px;font-weight: lighter">GLOBAL</span>
+        <span style="color:#c6c6c6;font-size: 44px;font-weight: lighter">PACKAGES</span>
+        <!--摄像机-->
+        <div class="seven_ph_pt">
+            <ul class="list-unstyled d-flex">
+                <li style="padding-left: 2.3rem;"><a href="#"><img src="img/photo/photo2.png"/></a></li>
+                <li style="margin-left: 16rem;"><a href="#"><img src="img/photo/photo1.png"/></a></li>
+            </ul>
+            <span class="seven_cam_font1">必选套系</span>
+            <span class="seven_cam_font2">本地摄影</span>
+            <ul class="list-unstyled d-flex" style="margin-top: 3.5rem">
+                <li style="padding-left: 2.3rem;"><a href="#"><img src="img/photo/photo1.png"/></a></li>
+                <li style="margin-left: 16rem;"><a href="#"><img src="img/photo/photo1.png"/></a></li>
+            </ul>
+            <span class="seven_cam_font1">全国摄影</span>
+            <span class="seven_cam_font2">全球摄影</span>
+            <ul class="list-unstyled d-flex" style="margin-top: 3.5rem">
+                <li style="padding-left: 2.3rem;"><a href="#"><img src="img/photo/photo1.png"/></a></li>
+                <li style="margin-left: 16rem;"><a href="#"><img src="img/photo/photo1.png"/></a></li>
+            </ul>
+            <span class="seven_cam_font1">最新客片</span>
+            <span class="seven_cam_font2">蜜月婚礼</span>
+            <div class="mt-5">
+                <span class="small seven_span">+</span>
+                <span class="small seven_span">G  &nbsp;L  &nbsp;O  &nbsp;B  &nbsp;A  &nbsp;L</span>
+                <span class="small seven_span">&nbsp;&nbsp;&nbsp;&nbsp;P &nbsp;A &nbsp;C &nbsp;K &nbsp;A &nbsp;G &nbsp;E &nbsp;S</span>
+            </div>
+        </div>
+    </div>
+    <!--第七栏 右侧 图片-->
+    <div class="seven_pic_w d-flex mt-4" style="margin-left: 12.2rem">
+        <img src="img/photo/seven1.png"/>
+        <img src="img/photo/seven2.png"/>
+    </div>
+  </div>
+  <div class="seven_pic_w d-flex" style="margin-left: 49.5rem;margin-top: -15.5rem">
+    <img src="img/photo/seven3.png"/>
+    <img src="img/photo/seven4.png"/>
+  </div>
+  <!--第八栏 本地摄影-->
+  <div class="text-center eight_tit_mp">
+    <span style="font-size: 34px;color: #ff4400">PHOTO</span>
+    <span style="font-size: 34px;">本地摄影</span>
+  </div>
+  <h6 class="small line_font text-muted">L O C A L&nbsp;&nbsp; &nbsp;&nbsp;P A C K A G E S</h6>
+  <div class="e_pic_ml e_pic_mt">
+    <ul class="list-unstyled d-flex">
+        <li>
+            <a href="#">
+                <div class="h_mouse">
+                    <img src="img/photo/e1.jpg"/>
+                </div>
+                <p>《欧若拉公主》限时特卖</p>
+                <div class="e_li_line"></div>
+            </a>
+        </li>
+        <li class="pl-3">
+            <a href="#">
+                <div class="h_mouse">
+                    <img src="img/photo/e2.jpg"/>
+                </div>
+                <p>《闪耀罗曼史》限时特卖</p>
+                <div class="e_li_line"></div>
+            </a>
+        </li>
+        <li class="pl-3">
+            <a href="#">
+                <div class="h_mouse">
+                    <img src="img/photo/e3.jpg"/>
+                </div>
+                <p>32周年纪念套系</p>
+                <div class="e_li_line"></div>
+            </a>
+        </li>
+    </ul>
+    <ul class="list-unstyled d-flex">
+        <li>
+            <a href="#">
+                <div class="h_mouse">
+                    <img src="img/photo/e4.jpg"/>
+                </div>
+                <p>拉法颂之 ROVAL服务</p>
+                <div class="e_li_line"></div>
+            </a>
+        </li>
+        <li class="pl-3">
+            <a href="#">
+                <div class="h_mouse">
+                    <img src="img/photo/e5.jpg"/></div>
+                <p>拉法颂之 PRESONALITY服务</p>
+                <div class="e_li_line"></div>
+            </a>
+        </li>
+        <li class="pl-3">
+            <a href="#">
+                <div class="h_mouse">
+                    <img src="img/photo/e6.jpg"/>
+                </div>
+                <p>拉法颂之 君王服务</p>
+                <div class="e_li_line"></div>
+            </a>
+        </li>
+    </ul>
+  </div>
+  <!--点击查看更多-->
+  <div class="more">
+    <a href="#">点 击 查 看 更 多 >></a>
+  </div>
+  <!--第九栏 必选套系-->
+  <div class="text-center title_line">
+    <span style="font-size: 34px;color: #ff4400">PHOTO</span>
+    <span style="font-size: 34px;">必选套系</span>
+  </div>
+  <h6 class="small line_font text-muted">H O T&nbsp;&nbsp; &nbsp;&nbsp;S A L E S</h6>
+  <div class="e_pic_ml e_pic_mt">
+    <ul class="list-unstyled d-flex">
+        <li>
+            <a href="#">
+                <div class="h_mouse">
+                    <img src="img/photo/n1.jpg"/>
+                </div>
+                <p>《欧若拉公主》限时特卖</p>
+                <div class="e_li_line"></div>
+            </a>
+        </li>
+        <li class="pl-3">
+            <a href="#">
+                <div class="h_mouse">
+                    <img src="img/photo/n2.jpg"/>
+                </div>
+                <p>《闪耀罗曼史》限时特卖</p>
+                <div class="e_li_line"></div>
+            </a>
+        </li>
+        <li class="pl-3">
+            <a href="#">
+                <div class="h_mouse">
+                    <img src="img/photo/n3.jpg"/>
+                </div>
+                <p>32周年纪念套系</p>
+                <div class="e_li_line"></div>
+            </a>
+        </li>
+    </ul>
+    <ul class="list-unstyled d-flex">
+        <li>
+            <a href="#">
+                <div class="h_mouse">
+                    <img src="img/photo/n4.jpg"/>
+                </div>
+                <p>拉法颂之 ROVAL服务</p>
+                <div class="e_li_line"></div>
+            </a>
+        </li>
+        <li class="pl-3">
+            <a href="#">
+                <div class="h_mouse">
+                    <img src="img/photo/n5.jpg"/>
+                </div>
+                <p>拉法颂之 PRESONALITY服务</p>
+                <div class="e_li_line"></div>
+            </a>
+        </li>
+        <li class="pl-3">
+            <a href="#">
+                <div class="h_mouse">
+                    <img src="img/photo/n6.jpg"/>
+                </div>
+                <p>拉法颂之 君王服务</p>
+                <div class="e_li_line"></div>
+            </a>
+        </li>
+    </ul>
+  </div>
+  <!--点击查看更多-->
+  <div class="more">
+    <a href="#">点 击 查 看 更 多 >></a>
+  </div>
+  <!--第十栏-->
+  <div class="text-center title_line">
+    <span style="font-size: 34px;color: #ff4400">PHOTO</span>
+    <span style="font-size: 34px;">全国摄影</span>
+  </div>
+  <h6 class="small line_font text-muted">D O M E S T I C &nbsp;&nbsp; &nbsp;&nbsp;P A C K A G E S</h6>
+  <div class="e_pic_ml e_pic_mt">
+    <ul class="list-unstyled d-flex">
+        <li>
+            <a href="#">
+                <div class="h_mouse">
+                    <img src="img/photo/ten1.jpg"/>
+                </div>
+                <p>《欧若拉公主》限时特卖</p>
+                <div class="e_li_line"></div>
+            </a>
+        </li>
+        <li class="pl-3">
+            <a href="#">
+                <div class="h_mouse">
+                    <img src="img/photo/ten2.jpg"/>
+                </div>
+                <p>《闪耀罗曼史》限时特卖</p>
+                <div class="e_li_line"></div>
+            </a>
+        </li>
+        <li class="pl-3">
+            <a href="#">
+                <div class="h_mouse">
+                    <img src="img/photo/ten3.jpg"/>
+                </div>
+                <p>32周年纪念套系</p>
+                <div class="e_li_line"></div>
+            </a>
+        </li>
+      </ul>
+      <ul class="list-unstyled d-flex">
+        <li>
+            <a href="#">
+                <div class="h_mouse">
+                    <img src="img/photo/ten4.jpg"/>
+                </div>
+                <p>拉法颂之 ROVAL服务</p>
+                <div class="e_li_line"></div>
+            </a>
+        </li>
+        <li class="pl-3">
+            <a href="#">
+                <div class="h_mouse">
+                    <img src="img/photo/ten5.jpg"/>
+                </div>
+                <p>拉法颂之 PRESONALITY服务</p>
+                <div class="e_li_line"></div>
+            </a>
+        </li>
+        <li class="pl-3">
+            <a href="#">
+                <div class="h_mouse">
+                    <img src="img/photo/ten6.jpg"/>
+                </div>
+                <p>拉法颂之 君王服务</p>
+                <div class="e_li_line"></div>
+            </a>
+        </li>
+    </ul>
+  </div>
+  <!--点击查看更多-->
+  <div class="more">
+    <a href="#">点 击 查 看 更 多 >></a>
+  </div>
+  <!--第十一栏-->
+  <div class="text-center title_line">
+    <span style="font-size: 34px;color: #ff4400">PHOTO</span>
+    <span style="font-size: 34px;">全球摄影</span>
+  </div>
+  <h6 class="small line_font text-muted">G L O B A L &nbsp;&nbsp; &nbsp;&nbsp;P A C K A G E S</h6>
+  <div class="e_pic_ml e_pic_mt">
+    <ul class="list-unstyled d-flex">
+        <li>
+            <a href="#">
+                <div class="h_mouse">
+                    <img src="img/photo/ele1.jpg"/>
+                </div>
+                <p>《欧若拉公主》限时特卖</p>
+                <div class="e_li_line"></div>
+            </a>
+        </li>
+        <li class="pl-3">
+            <a href="#">
+                <div class="h_mouse">
+                    <img src="img/photo/ele2.jpg"/>
+                </div>
+                <p>《闪耀罗曼史》限时特卖</p>
+                <div class="e_li_line"></div>
+            </a>
+        </li>
+        <li class="pl-3">
+            <a href="#">
+                <div class="h_mouse">
+                    <img src="img/photo/ele3.jpg"/>
+                </div>
+                <p>32周年纪念套系</p>
+                <div class="e_li_line"></div>
+            </a>
+        </li>
+    </ul>
+    <ul class="list-unstyled d-flex">
+        <li>
+            <a href="#">
+                <div class="h_mouse">
+                    <img src="img/photo/ele4.jpg"/>
+                </div>
+                <p>拉法颂之 ROVAL服务</p>
+                <div class="e_li_line"></div>
+            </a>
+        </li>
+        <li class="pl-3">
+            <a href="#">
+                <div class="h_mouse">
+                    <img src="img/photo/ele5.jpg"/></div>
+                <p>拉法颂之 PRESONALITY服务</p>
+                <div class="e_li_line"></div>
+            </a>
+        </li>
+        <li class="pl-3">
+            <a href="#">
+                <div class="h_mouse">
+                    <img src="img/photo/ele6.jpg"/></div>
+                <p>拉法颂之 君王服务</p>
+                <div class="e_li_line"></div>
+            </a>
+        </li>
+    </ul>
+    <ul class="list-unstyled d-flex">
+        <li>
+            <a href="#">
+                <div class="h_mouse">
+                    <img src="img/photo/ele7.jpg" alt=""/>
+                </div>
+                <p>拉法颂之 ROVAL服务</p>
+                <div class="e_li_line"></div>
+            </a>
+        </li>
+        <li class="pl-3">
+            <a href="#">
+                <div class="h_mouse">
+                    <img src="img/photo/ele8.jpg"/>
+                </div>
+                <p>拉法颂之 PRESONALITY服务</p>
+                <div class="e_li_line"></div>
+            </a>
+        </li>
+        <li class="pl-3">
+            <a href="#">
+            <div class="h_mouse">
+                <img src="img/photo/ele9.jpg"/>
+            </div>
+            <p>拉法颂之 君王服务</p>
+            <div class="e_li_line"></div>
+            </a>
+        </li>
+    </ul>
+  </div>
+  <!--点击查看更多-->
+  <div class="more last_mor">
+    <a href="#">点击查看更多 >></a>
+  </div>
+  <!--十二栏 背景图-->
+  <div>
+    <img src="img/photo/n1.png" class="w-100"/>
+  </div>
+  <!--十三栏  最新客片-->
+  <div id="new_bg">
+    <!--标题-->
+    <div class="text-center new_line">
+        <span style="font-size: 34px;color: #ff4400">PHOTO</span>
+        <span style="font-size: 34px;color:#fff">最新客片</span>
+    </div>
+    <h6 class="small mt-3 font-weight-bold text-muted text-center">C U S T O M E R &nbsp;&nbsp; &nbsp;&nbsp;W O R K S</h6>
+    <!--第一行 四列竖图-->
+    <div class="e_pic_ml">
+        <ul class="list-unstyled d-flex">
+            <li>
+                <a href="#">
+                    <div class="h_mouse">
+                        <img src="img/photo/ver1.jpg"/>
+                    </div>
+                    <p>法国巴黎</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="h_mouse">
+                        <img src="img/photo/ver2.png"/>
+                    </div>
+                    <p>日本京都</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="h_mouse">
+                        <img src="img/photo/ver3.png"/>
+                    </div>
+                    <p>澳大利亚悉尼</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="h_mouse">
+                        <img src="img/photo/ver4.png"/>
+                    </div>
+                    <p>云南大理</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!--第二行 四列竖图-->
+    <div class="e_pic_ml two_ver_mt">
+        <ul class="list-unstyled d-flex">
+            <li>
+                <a href="#">
+                    <div class="h_mouse">
+                        <img src="img/photo/ver5.png"/>
+                    </div>
+                    <p>意大利罗马</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="h_mouse">
+                        <img src="img/photo/ver6.png"/>
+                    </div>
+                    <p>巴厘岛</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="h_mouse">
+                        <img src="img/photo/ver7.png"/>
+                    </div>
+                    <p>马尔代夫</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="h_mouse">
+                        <img src="img/photo/ver8.png"/>
+                    </div>
+                    <p>三亚</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!--下载图标-->
+    <div id="down1">
+        <img src="img/photo/down1.png"/>
+        <p>The wind rises and the wind blows. Rain, rain and rain. Silently put each other in the heart,</p>
+        <p>gently feel each other's warmth. Love flows slowly in my heart, but it is also warm. Affection at the eyebrow is soft and soft,</p>
+        <p>silent is also happiness. Warm care, deep pain, is the most beautiful waiting in life</p>
+    </div>
+  </div>
+  <!--高端定制-->
+  <div id="bt_pic">
+    <img src="img/photo/bottom_title.jpg"/>
+    <img src="img/photo/list.png" class="two_img"/>
+  </div>
+ <!--最后一栏-->
+ <div class="last_bg d-flex">
+    <div class="last_div last_ml"><span>旅拍攻略</span></div>
+    <div class="last_div last_ml_two"><span>旅游攻略</span></div>
+ </div>
+</body>
+</html>

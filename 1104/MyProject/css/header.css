@@ -1,0 +1,36 @@
+/*右上角 预约档期 背景*/
+.h_right_bg{
+  width:10.5rem;
+  height:2.1rem;
+  text-align: center;
+  line-height: 2.1rem;
+  background: #a98251;
+}
+/*精彩样照*/
+.h_jc_bg{
+  width:14.5rem;
+  height:4.5rem;
+  text-align: center;
+  line-height:4.5rem; 
+  font-size: 18px;
+  background: #a98251;
+}
+/*下载图标定位*/
+.h_down_pos{
+  position: absolute;
+  left:9.7rem;
+  top:-0.15rem;
+}
+/*首页一栏字体颜色*/
+.h_font_col{
+  color:#4d4f4e;
+  font-size: 15px;
+}
+/*首页一栏 英文字体大小*/
+.h_font_size{
+  font-size:13px;
+}
+/*首页一栏 字体居中*/
+.h_font_center{
+  text-align: center;
+}

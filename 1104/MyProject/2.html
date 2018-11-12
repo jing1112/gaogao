@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/1.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.11.3.js"></script>
+    <title>111</title>
+    <style>
+      /* 1030 272*/
+      #banner{
+	width:1030px;
+	height:272px;
+	margin:0 auto;
+	margin-top:40px;
+	position:relative;
+
+}
+
+#show{
+	position:absolute;
+	width:1030px;
+	height:272px;
+	overflow:hidden;
+
+}
+
+#show>li{
+	position:absolute;
+	left:0;
+	top:0;
+	transition:all 1s ease-out;
+}
+
+#show>li>img{
+	width:640px;
+	height:270px;
+	border:none;
+}
+
+#next1,#prev1{
+	width:64px;
+	height:64px;
+	position:absolute;
+	opacity:.5;
+	top:100px;
+	transition:all .3s linear;
+	cursor:pointer;
+	z-index:3;
+}
+
+#prev1{
+	left:5px;
+}
+
+#next1{
+	right:5px;
+}
+
+img.direction{
+	width:64px;
+	height:64px;
+}
+
+#prev1:hover{
+	opacity:1;
+}
+
+#next1:hover{
+	opacity:.8;
+}
+
+/***************************************/
+
+.b1{
+	transform:translate3d(-500px,0,0) scale(.6);
+	opacity:0;
+}
+
+.b2{
+	transform:translate3d(-300px,0,0) scale(.7);
+	z-index:2;
+	opacity:.8;
+}
+
+.b3{
+	transform:translate3d(135px,0,0) scale(1);
+	z-index:3;
+}
+
+.b4{
+	transform:translate3d(500px,0,0) scale(.7);
+	z-index:2;
+	opacity:.8;
+}
+
+.b5{
+	transform:translate3d(900px,0,0) scale(.6);
+	opacity:0;
+}
+
+    </style>
+</head>
+<body>
+ 
+      <div id="banner">
+          <ul id="show">
+            <li class="b1"><img src="img/index/banner1.png"></li>
+            <li class="b2"><img src="img/index/banner2.png"></li>
+            <li class="b3"><img src="img/index/banner3.png"></li>
+            <li class="b4"><img src="img/index/banner4.png"></li>
+            <li class="b5"><img src="img/index/banner5.png"></li>
+          </ul>
+          <div id="prev1">
+            <img src="img/index/left.png" class="direction">
+          </div>
+          <div id="next1">
+            <img src="img/index/right.png" class="direction">
+          </div>
+        </div>
+
+  
+
+  
+  <script>
+    $((()=>{
+	let imgArr = ["b5","b4","b3","b2","b1"];
+	let index  = 0;
+	let timer  = null; 
+	/**
+	 * 播放下一张
+	 */
+	function nextImg(){
+		imgArr.push(imgArr[0]);
+		imgArr.shift();
+		$("#show li").each((i,e)=>$(e).removeClass().addClass(imgArr[i]));
+		index ++;
+		if (index >= 4) index = 0;
+	}
+	/**
+	 * 播放上一张
+	 */
+	function prevImg(){
+		imgArr.push(imgArr[0]);
+		imgArr.shift();
+		$("#show li").each((i,e)=>$(e).removeClass().addClass(imgArr[i]));
+		index --;
+		if (index<=0) index = 5;
+	}
+	//上一张绑定点击和移入移出事件
+	$("#prev1").click(()=>prevImg()).mouseover(()=>{
+		clearInterval(timer);
+		timer = null;
+	}).mouseleave(()=>timer = setInterval(nextImg,3000));
+	//下一张绑定点击和移入移出事件
+	$("#next1").click(()=>nextImg()).mouseover(()=>{
+		clearInterval(timer);
+		timer = null;
+	}).mouseleave(()=>timer = setInterval(nextImg,3000));
+	//鼠标移入清除定时器，鼠标移出开始定时器
+	$("#show").mouseover(()=>{
+		clearInterval(timer);
+		timer = null;
+	}).mouseleave(()=>timer = setInterval(nextImg,3000));
+	//进入页面后自动开始定时器
+	timer = setInterval(nextImg,3000);
+})());
+  </script>
+</body>
+</html>

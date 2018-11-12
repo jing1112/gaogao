@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*右上角 白色 字体*/
+.h_white_col{
+    color:#fff;
+}
+/*字体颜色*/
+.gol_font_col{
+  color:#a27031;
+  font-weight: bold;
+}
+/*全球旅拍 登录 注册 头部*/
+/*logo图片左右外边距*/
+.po_margin{
+    margin-left: 52rem;
+}
+/*注册登录 左右外边距*/
+.po_font_margin{
+    margin-left: 20.5rem;
+}
+/*登录 注册 触发颜色*/
+div.po_font_margin ul li a:hover{
+    color:#ff4400 !important;
+    text-decoration: none;
+}
+/*导航栏字体*/
+.po_nav_font{
+    font-size: 15px;
+}
+/*导航栏字体颜色*/
+ul.po_nav_font li a{
+    color: #434342;
+}
+/*导航栏 字体之间的左内边距*/
+.nav_font_pl{
+    padding-left: 1.8rem;
+}
+/*导航栏左右外边距*/
+.po_nav_margin{
+    margin-left: 8rem;
+}
+/*导航栏触发*/
+ul.po_nav_font li a:hover{
+    color: #ff4400;
+}
+/*最后一栏*/
+.last_bg{
+    background:  #333333;
+}
+.last_div{
+    width:5.8rem;
+    height: 2.5rem;
+    border: 1px solid #ff4400;
+    text-align: center;
+    margin-top:2.5rem;
+    margin-bottom: 2rem;
+}
+.last_bg div span{
+    color: #fff;
+    line-height: 2.5rem;
+}
+.last_ml{
+    margin-left: 52rem;
+}
+.last_ml_two{
+    margin-left: 2.8rem;
+}
+/*注册 登录界面*/
+/*container 宽度*/
+.con_w{
+    border:1px solid #5c5c5c;
+    width:530px;
+    padding:0;
+    position:absolute;
+    top:102px;
+    left:688px;
+  }
+  /*第一栏 会员注册*/
+  .member{
+    background:#df6438;  
+    text-align: center;
+  }
+  /*会员注册 字体*/
+  .mem_font{
+    padding-top:10px;
+    padding-bottom: 10px ;
+    color: #fff; 
+    font-size: 22px;
+  }
+  /*每行外边距和内边距*/
+  .row_m{
+      margin-left: 40px;
+      margin-right: 40px;
+  }
+  .row_p{
+      padding-bottom: 15px;
+      padding-top: 15px;
+  }
+  /*每行下划线*/
+  .row_line{
+      border-bottom: 1px solid #2c2c2c;
+  }
+  /*输入框样式*/
+  .input_style{
+      background: transparent;
+      border:none;
+      font-size: 12px;
+      outline: none;
+  }
+  /*第二列 定位 左移*/
+  .col_position{
+      position: relative;
+      left:-20px;
+  }
+  /*注册协议 字体*/
+  .register{
+      font-size:14px;
+      font-weight: blod;
+  }
+  .register>a{
+     text-decoration: none;
+     color:#ff4e00;
+  }
+  /*提交 登录按钮*/
+  .btn_bg{
+      background: #f57b4c;
+      width: 447px;
+      color:#fff;
+  }
+  .col_p{
+      padding: 0;
+      padding-left: 3px;
+  }
+  /*提交 登录 字体*/
+  .row_p>button{
+      font-size: 18px;
+  }
+
+/*引入头部高度*/
+.my_header{
+  width:100%;
+  height:11.85rem;
+}
+/*引入底部高度*/
+.my_footer{
+    width:100%;
+    height:32.6rem;
+}
+

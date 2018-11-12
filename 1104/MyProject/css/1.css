@@ -1,0 +1,22 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd,pre{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	font-family: "å®‹ä½“";
+	background: #f2f2f0;
+}
+
+a{
+	text-decoration: none;/*æ¸…é™¤è¶…é“¾æŽ¥çš„ä¸‹åˆ’çº¿*/
+}
+
+img{
+	vertical-align: bottom;/*åž‚ç›´æ°´å¹³å¯¹é½æ–¹å¼*/
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
